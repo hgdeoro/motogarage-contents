@@ -22,8 +22,8 @@ def main():
 							{'name': 'Aceite - Marcas',				'value': 'Mobil Supermoto 4T Multigrado SAE 20W50 API-SF, Castrol Actevo 20W50',},
 						],
 						'mpt': [
-							{'code': 'cambio-aceite',			'name': 'Cambio de aceite',				'km': 3000,},
-							{'code': 'cambio-filtro-aceite',	'name': 'Cambio de filtro de aceite',	'km': 3000,},
+							{'code': 'cambio-aceite',			'name': 'Cambio de aceite',				'distance': 3000,},
+							{'code': 'cambio-filtro-aceite',	'name': 'Cambio de filtro de aceite',	'distance': 3000,},
 						],
 					},
 				],
@@ -46,8 +46,8 @@ def main():
 							{'name': 'Aceite - Marcas',				'value': 'Mobil Supermoto 4T Multigrado SAE 20W50 API-SF, Castrol Actevo 20W50',},
 						],
 						'mpt': [
-							{'code': 'cambio-aceite',			'name': 'Cambio de aceite',				'km': 3000,},
-							{'code': 'cambio-filtro-aceite',	'name': 'Cambio de filtro de aceite',	'km': 3000,},
+							{'code': 'cambio-aceite',			'name': 'Cambio de aceite',				'distance': 3000,},
+							{'code': 'cambio-filtro-aceite',	'name': 'Cambio de filtro de aceite',	'distance': 3000,},
 						],
 					},
 				],

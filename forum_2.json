@@ -21,14 +21,14 @@
       ], 
       "mpt": [
         {
+          "distance": 3000, 
           "code": "cambio-aceite", 
-          "name": "Cambio de aceite", 
-          "km": 3000
+          "name": "Cambio de aceite"
         }, 
         {
+          "distance": 3000, 
           "code": "cambio-filtro-aceite", 
-          "name": "Cambio de filtro de aceite", 
-          "km": 3000
+          "name": "Cambio de filtro de aceite"
         }
       ], 
       "id": 2, 
