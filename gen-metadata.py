@@ -27,9 +27,9 @@ def main():
 						],
 					},
 				],
-				'mobile_msg': [
+				'mobileMessages': [
 				],
-				'image_url': '',
+				'imageUrl': '',
 			},
 			{
 				'id': 2,
@@ -51,9 +51,9 @@ def main():
 						],
 					},
 				],
-				'mobile_msg': [
+				'mobileMessages': [
 				],
-				'image_url': '',
+				'imageUrl': '',
 			},
 		]
 	}
@@ -63,8 +63,8 @@ def main():
 	# METADATA
 	metadata = copy.deepcopy(full_datos)
 	for forum in metadata['forums']:
-		del forum['mobile_msg']
-		del forum['image_url']
+		del forum['mobileMessages']
+		del forum['imageUrl']
 		for vehicle in forum['vehicles']:
 			del vehicle['spec']
 			del vehicle['mpt']

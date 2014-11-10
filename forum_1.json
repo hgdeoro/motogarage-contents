@@ -1,8 +1,8 @@
 {
-  "mobile_msg": [], 
   "name": "ClubNX4 - Argentina", 
   "url": "www.foronx4.com.ar", 
   "country": "ar", 
+  "imageUrl": "", 
   "vehicles": [
     {
       "spec": [
@@ -35,6 +35,6 @@
       "name": "Honda Falcon NX4"
     }
   ], 
-  "image_url": "", 
+  "mobileMessages": [], 
   "id": 1
 }
