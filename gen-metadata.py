@@ -8,12 +8,13 @@ def main():
 	full_datos = {
 		'forums': [
 			{
+				'id': 1,
 				'country': 'ar',
 				'name': 'ClubNX4 - Argentina',
 				'url': 'www.foronx4.com.ar',
 				'vehicles': [
 					{
-						'code': 'moto.honda.nx4',
+						'id': 1,
 						'name': 'Honda Falcon NX4',
 						'spec': [
 							{'name': 'Aceite - Tipo',				'value': 'Mineral - SAE 20W-50',},
@@ -31,12 +32,13 @@ def main():
 				'image_url': '',
 			},
 			{
+				'id': 2,
 				'country': 'ar',
 				'name': 'Los Cuises - Moteros Cordobeses',
 				'url': 'moteroscordobeses.com.ar',
 				'vehicles': [
 					{
-						'code': 'moto.honda.nx4',
+						'id': 2,
 						'name': 'Honda Falcon NX4',
 						'spec': [
 							{'name': 'Aceite - Tipo',				'value': 'Mineral - SAE 20W-50',},
