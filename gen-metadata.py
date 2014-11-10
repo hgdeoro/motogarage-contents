@@ -1,11 +1,13 @@
 #!/bin/bash
 
+import copy
 import json
 
 def main():
-	metadata = {
+	full_datos = {
 		'forums': [
 			{
+				'country': 'ar',
 				'name': 'ClubNX4 - Argentina',
 				'url': 'www.foronx4.com.ar',
 				'vehicles': [
@@ -29,8 +31,14 @@ def main():
 			},
 		]
 	}
+	metadata = copy.deepcopy(full_datos)
+	for forum in metadata['forums']:
+		del forum['mobile_msg']
+		del forum['image_url']
+		for vehicle in forum['vehicles']:
+			del vehicle['spec']
+			del vehicle['mpt']
 	print(json.dumps(metadata))
 
 if __name__ == '__main__':
 	main()
-
