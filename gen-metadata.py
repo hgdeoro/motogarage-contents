@@ -57,19 +57,24 @@ def main():
 			},
 		]
 	}
-	
-	if sys.argv[1] == 'meta':
-		metadata = copy.deepcopy(full_datos)
-		for forum in metadata['forums']:
-			del forum['mobile_msg']
-			del forum['image_url']
-			for vehicle in forum['vehicles']:
-				del vehicle['spec']
-				del vehicle['mpt']
-		print(json.dumps(metadata))
-		return
-	else:
-		raise("No implementado")
+
+	indent = 2
+
+	# METADATA
+	metadata = copy.deepcopy(full_datos)
+	for forum in metadata['forums']:
+		del forum['mobile_msg']
+		del forum['image_url']
+		for vehicle in forum['vehicles']:
+			del vehicle['spec']
+			del vehicle['mpt']
+	with open("metadata.json", "w") as metadata_file:
+		metadata_file.write(json.dumps(metadata, encoding='utf-8', indent=indent))
+
+	# FORUMS
+	for forum in full_datos['forums']:
+		with open("forum_{0}.json".format(forum["id"]), "w") as forum_file:
+			forum_file.write(json.dumps(forum, encoding='utf-8', indent=indent))
 
 if __name__ == '__main__':
 	main()
