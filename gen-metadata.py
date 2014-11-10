@@ -2,6 +2,7 @@
 
 import copy
 import json
+import sys
 
 def main():
 	full_datos = {
@@ -31,14 +32,19 @@ def main():
 			},
 		]
 	}
-	metadata = copy.deepcopy(full_datos)
-	for forum in metadata['forums']:
-		del forum['mobile_msg']
-		del forum['image_url']
-		for vehicle in forum['vehicles']:
-			del vehicle['spec']
-			del vehicle['mpt']
-	print(json.dumps(metadata))
+	
+	if sys.argv[1] == 'meta':
+		metadata = copy.deepcopy(full_datos)
+		for forum in metadata['forums']:
+			del forum['mobile_msg']
+			del forum['image_url']
+			for vehicle in forum['vehicles']:
+				del vehicle['spec']
+				del vehicle['mpt']
+		print(json.dumps(metadata))
+		return
+	else:
+		raise("No implementado")
 
 if __name__ == '__main__':
 	main()
