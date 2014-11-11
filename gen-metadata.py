@@ -88,8 +88,8 @@ def main():
 		]
 	}
 
-	full_datos['forums'].pop(0)
-	full_datos['forums'].pop(0)
+	# full_datos['forums'].pop(0)
+	# full_datos['forums'].pop(0)
 	indent = 2
 
 	# CHECK
