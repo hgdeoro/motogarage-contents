@@ -63,7 +63,7 @@ def main():
 				'id': 3,
 				'country': 'ar',
 				'name': 'General (sin foro)',
-				'url': '',
+				'url': '(sin foro)',
 				'vehicles': [
 					{
 						'id': 3,
@@ -88,8 +88,8 @@ def main():
 		]
 	}
 
-	full_datos['forums'].pop()
-	full_datos['forums'].pop()
+	full_datos['forums'].pop(0)
+	full_datos['forums'].pop(0)
 	indent = 2
 
 	# CHECK
