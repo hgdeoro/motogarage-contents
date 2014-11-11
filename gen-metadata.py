@@ -48,10 +48,36 @@ def main():
 							{'name': 'Aceite - Marcas',				'value': 'Mobil Supermoto 4T Multigrado SAE 20W50 API-SF, Castrol Actevo 20W50',},
 						],
 						'mpt': [
-							{'id': 201,	'name': 'Cambio de aceite',				'distance': 3000,},
-							{'id': 202,	'name': 'Cambio de filtro de aceite',	'distance': 3000,},
-							{'id': 203,	'name': 'Cambio de filtro de aire',		'distance': 6000,},
-							{'id': 204,	'name': 'Control luz de válvulas',		'distance': 3000,},
+							{'id': 105,	'name': 'Cambio de aceite',				'distance': 3000,},
+							{'id': 106,	'name': 'Cambio de filtro de aceite',	'distance': 3000,},
+							{'id': 107,	'name': 'Cambio de filtro de aire',		'distance': 6000,},
+							{'id': 108,	'name': 'Control luz de válvulas',		'distance': 3000,},
+						],
+					},
+				],
+				'mobileMessages': [
+				],
+				'imageUrl': '',
+			},
+			{
+				'id': 3,
+				'country': 'ar',
+				'name': 'General (sin foro)',
+				'url': '',
+				'vehicles': [
+					{
+						'id': 3,
+						'name': 'Honda Falcon NX4',
+						'spec': [
+							{'name': 'Aceite - Tipo',				'value': 'Mineral - SAE 20W-50',},
+							{'name': 'Aceite - Capacidad maxima',	'value': '2,2 litros',},
+							{'name': 'Aceite - Marcas',				'value': 'Mobil Supermoto 4T Multigrado SAE 20W50 API-SF, Castrol Actevo 20W50',},
+						],
+						'mpt': [
+							{'id': 109,	'name': 'Cambio de aceite',				'distance': 3000,},
+							{'id': 110,	'name': 'Cambio de filtro de aceite',	'distance': 3000,},
+							{'id': 111,	'name': 'Cambio de filtro de aire',		'distance': 6000,},
+							{'id': 112,	'name': 'Control luz de válvulas',		'distance': 3000,},
 						],
 					},
 				],
@@ -62,7 +88,18 @@ def main():
 		]
 	}
 
+	full_datos['forums'].pop()
+	full_datos['forums'].pop()
 	indent = 2
+
+	# CHECK
+	mpt_ids = set()
+	for forum in full_datos['forums']:
+		for vehicle in forum['vehicles']:
+			for a_mpt in vehicle['mpt']:
+				assert a_mpt['id'] not in mpt_ids, "Id duplicado: " + str(a_mpt['id'])
+				mpt_ids.add(a_mpt['id'])
+				
 
 	# METADATA
 	metadata = copy.deepcopy(full_datos)

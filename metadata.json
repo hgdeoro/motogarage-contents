@@ -11,18 +11,6 @@
         }
       ], 
       "id": 1
-    }, 
-    {
-      "name": "Los Cuises - Moteros Cordobeses", 
-      "url": "moteroscordobeses.com.ar", 
-      "country": "ar", 
-      "vehicles": [
-        {
-          "name": "Honda Falcon NX4", 
-          "id": 2
-        }
-      ], 
-      "id": 2
     }
   ]
 }
