@@ -1,5 +1,5 @@
 #!/usr/bin/python
-
+# -*- coding: utf8 -*-
 import copy
 import json
 import sys
@@ -22,8 +22,10 @@ def main():
 							{'name': 'Aceite - Marcas',				'value': 'Mobil Supermoto 4T Multigrado SAE 20W50 API-SF, Castrol Actevo 20W50',},
 						],
 						'mpt': [
-							{'id': 101,	'code': 'cambio-aceite',		'name': 'Cambio de aceite',				'distance': 3000,},
-							{'id': 102,	'code': 'cambio-filtro-aceite',	'name': 'Cambio de filtro de aceite',	'distance': 3000,},
+							{'id': 101,	'name': 'Cambio de aceite',				'distance': 3000,},
+							{'id': 102,	'name': 'Cambio de filtro de aceite',	'distance': 3000,},
+							{'id': 103,	'name': 'Cambio de filtro de aire',		'distance': 6000,},
+							{'id': 104,	'name': 'Control luz de válvulas',		'distance': 3000,},
 						],
 					},
 				],
@@ -46,8 +48,10 @@ def main():
 							{'name': 'Aceite - Marcas',				'value': 'Mobil Supermoto 4T Multigrado SAE 20W50 API-SF, Castrol Actevo 20W50',},
 						],
 						'mpt': [
-							{'id': 103,	'code': 'cambio-aceite',		'name': 'Cambio de aceite',				'distance': 3000,},
-							{'id': 104,	'code': 'cambio-filtro-aceite',	'name': 'Cambio de filtro de aceite',	'distance': 3000,},
+							{'id': 201,	'name': 'Cambio de aceite',				'distance': 3000,},
+							{'id': 202,	'name': 'Cambio de filtro de aceite',	'distance': 3000,},
+							{'id': 203,	'name': 'Cambio de filtro de aire',		'distance': 6000,},
+							{'id': 204,	'name': 'Control luz de válvulas',		'distance': 3000,},
 						],
 					},
 				],
