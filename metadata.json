@@ -13,16 +13,16 @@
       "id": 1
     }, 
     {
-      "name": "Los Cuises - Moteros Cordobeses", 
-      "url": "moteroscordobeses.com.ar", 
+      "name": "Club Twister", 
+      "url": "www.clubtwister.com.ar", 
       "country": "ar", 
       "vehicles": [
         {
-          "name": "Honda Falcon NX4", 
-          "id": 2
+          "name": "Honda Twister", 
+          "id": 4
         }
       ], 
-      "id": 2
+      "id": 4
     }, 
     {
       "name": "General - Sin foro", 

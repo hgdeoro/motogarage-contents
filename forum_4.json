@@ -1,0 +1,60 @@
+{
+  "forumLinks": [
+    {
+      "url": "http://www.clubtwister.com.ar/foro/descargas.php", 
+      "name": "Descargas (manuales, etc.)"
+    }, 
+    {
+      "url": "http://www.clubtwister.com.ar/foro/viewtopic.php?f=51&t=74", 
+      "name": "Tutorial cambio de aceite"
+    }
+  ], 
+  "name": "Club Twister", 
+  "url": "www.clubtwister.com.ar", 
+  "country": "ar", 
+  "imageUrl": "", 
+  "vehicles": [
+    {
+      "spec": [
+        {
+          "name": "Aceite - Tipo", 
+          "value": "Mineral - SAE 20W-50"
+        }, 
+        {
+          "name": "Aceite - Capacidad maxima", 
+          "value": "1,5 litros"
+        }, 
+        {
+          "name": "Aceite - Marcas", 
+          "value": "Mobil Supermoto 4T Multigrado SAE 20W50 API-SF"
+        }
+      ], 
+      "mpt": [
+        {
+          "distance": 3000, 
+          "id": 113, 
+          "name": "Cambio de aceite"
+        }, 
+        {
+          "distance": 6000, 
+          "id": 114, 
+          "name": "Cambio de filtro de aceite"
+        }, 
+        {
+          "distance": 18000, 
+          "id": 115, 
+          "name": "Cambio de filtro de aire"
+        }, 
+        {
+          "distance": 3000, 
+          "id": 116, 
+          "name": "Control luz de v\u00e1lvulas"
+        }
+      ], 
+      "id": 4, 
+      "name": "Honda Twister"
+    }
+  ], 
+  "mobileMessages": [], 
+  "id": 4
+}
