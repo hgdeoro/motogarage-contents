@@ -2,7 +2,6 @@
 # -*- coding: utf8 -*-
 import copy
 import json
-import sys
 
 def main():
 	full_datos = {
