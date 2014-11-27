@@ -62,8 +62,8 @@ def main():
 			{
 				'id': 3,
 				'country': 'ar',
-				'name': 'General (sin foro)',
-				'url': '(sin foro)',
+				'name': 'General - Sin foro',
+				'url': '',
 				'vehicles': [
 					{
 						'id': 3,
