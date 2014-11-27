@@ -16,17 +16,27 @@ def main():
 						'id': 1,
 						'name': 'Honda Falcon NX4',
 						'spec': [
-							{'name': 'Aceite - Tipo',				'value': 'Mineral - SAE 20W-50',},
-							{'name': 'Aceite - Capacidad maxima',	'value': '2,2 litros',},
-							{'name': 'Aceite - Marcas',				'value': 'Mobil Supermoto 4T Multigrado SAE 20W50 API-SF, Castrol Actevo 20W50',},
+							{'name': 'Aceite - Tipo', 				'value': 'Mineral - SAE 20W-50', },
+							{'name': 'Aceite - Capacidad maxima', 	'value': '2,2 litros', },
+							{'name': 'Aceite - Marcas', 				'value': 'Mobil Supermoto 4T Multigrado SAE 20W50 API-SF, Castrol Actevo 20W50', },
 						],
 						'mpt': [
-							{'id': 101,	'name': 'Cambio de aceite',				'distance': 3000,},
-							{'id': 102,	'name': 'Cambio de filtro de aceite',	'distance': 3000,},
-							{'id': 103,	'name': 'Cambio de filtro de aire',		'distance': 6000,},
-							{'id': 104,	'name': 'Control luz de válvulas',		'distance': 3000,},
+							{'id': 101, 	'name': 'Cambio de aceite', 				'distance': 3000, },
+							{'id': 102, 	'name': 'Cambio de filtro de aceite', 	'distance': 3000, },
+							{'id': 103, 	'name': 'Cambio de filtro de aire', 		'distance': 6000, },
+							{'id': 104, 	'name': 'Control luz de válvulas', 		'distance': 3000, },
 						],
 					},
+				],
+				'forumLinks': [
+					{'name': 'Deposito de bienvenida',
+						'url': 'http://www.foronx4.com.ar/index.php?topic=4479'},
+					{'name': 'Viajes largos, consejos, preparativos',
+						'url': 'http://www.foronx4.com.ar/index.php?topic=1520'},
+					{'name': 'Kits de emergencia',
+						'url': 'http://www.foronx4.com.ar/index.php?topic=3410'},
+					{'name': 'Cómo se mide el nivel de aceite',
+						'url': 'http://www.foronx4.com.ar/index.php?topic=12'},
 				],
 				'mobileMessages': [
 				],
@@ -42,17 +52,19 @@ def main():
 						'id': 2,
 						'name': 'Honda Falcon NX4',
 						'spec': [
-							{'name': 'Aceite - Tipo',				'value': 'Mineral - SAE 20W-50',},
-							{'name': 'Aceite - Capacidad maxima',	'value': '2,2 litros',},
-							{'name': 'Aceite - Marcas',				'value': 'Mobil Supermoto 4T Multigrado SAE 20W50 API-SF, Castrol Actevo 20W50',},
+							{'name': 'Aceite - Tipo', 				'value': 'Mineral - SAE 20W-50', },
+							{'name': 'Aceite - Capacidad maxima', 	'value': '2,2 litros', },
+							{'name': 'Aceite - Marcas', 				'value': 'Mobil Supermoto 4T Multigrado SAE 20W50 API-SF, Castrol Actevo 20W50', },
 						],
 						'mpt': [
-							{'id': 105,	'name': 'Cambio de aceite',				'distance': 3000,},
-							{'id': 106,	'name': 'Cambio de filtro de aceite',	'distance': 3000,},
-							{'id': 107,	'name': 'Cambio de filtro de aire',		'distance': 6000,},
-							{'id': 108,	'name': 'Control luz de válvulas',		'distance': 3000,},
+							{'id': 105, 	'name': 'Cambio de aceite', 				'distance': 3000, },
+							{'id': 106, 	'name': 'Cambio de filtro de aceite', 	'distance': 3000, },
+							{'id': 107, 	'name': 'Cambio de filtro de aire', 		'distance': 6000, },
+							{'id': 108, 	'name': 'Control luz de válvulas', 		'distance': 3000, },
 						],
 					},
+				],
+				'forumLinks': [
 				],
 				'mobileMessages': [
 				],
@@ -68,17 +80,19 @@ def main():
 						'id': 3,
 						'name': 'Honda Falcon NX4',
 						'spec': [
-							{'name': 'Aceite - Tipo',				'value': 'Mineral - SAE 20W-50',},
-							{'name': 'Aceite - Capacidad maxima',	'value': '2,2 litros',},
-							{'name': 'Aceite - Marcas',				'value': 'Mobil Supermoto 4T Multigrado SAE 20W50 API-SF, Castrol Actevo 20W50',},
+							{'name': 'Aceite - Tipo', 				'value': 'Mineral - SAE 20W-50', },
+							{'name': 'Aceite - Capacidad maxima', 	'value': '2,2 litros', },
+							{'name': 'Aceite - Marcas', 				'value': 'Mobil Supermoto 4T Multigrado SAE 20W50 API-SF, Castrol Actevo 20W50', },
 						],
 						'mpt': [
-							{'id': 109,	'name': 'Cambio de aceite',				'distance': 3000,},
-							{'id': 110,	'name': 'Cambio de filtro de aceite',	'distance': 3000,},
-							{'id': 111,	'name': 'Cambio de filtro de aire',		'distance': 6000,},
-							{'id': 112,	'name': 'Control luz de válvulas',		'distance': 3000,},
+							{'id': 109, 	'name': 'Cambio de aceite', 				'distance': 3000, },
+							{'id': 110, 	'name': 'Cambio de filtro de aceite', 	'distance': 3000, },
+							{'id': 111, 	'name': 'Cambio de filtro de aire', 		'distance': 6000, },
+							{'id': 112, 	'name': 'Control luz de válvulas', 		'distance': 3000, },
 						],
 					},
+				],
+				'forumLinks': [
 				],
 				'mobileMessages': [
 				],
@@ -103,6 +117,7 @@ def main():
 	# METADATA
 	metadata = copy.deepcopy(full_datos)
 	for forum in metadata['forums']:
+		del forum['forumLinks']
 		del forum['mobileMessages']
 		del forum['imageUrl']
 		for vehicle in forum['vehicles']:

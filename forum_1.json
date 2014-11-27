@@ -1,4 +1,22 @@
 {
+  "forumLinks": [
+    {
+      "url": "http://www.foronx4.com.ar/index.php?topic=4479", 
+      "name": "Deposito de bienvenida"
+    }, 
+    {
+      "url": "http://www.foronx4.com.ar/index.php?topic=1520", 
+      "name": "Viajes largos, consejos, preparativos"
+    }, 
+    {
+      "url": "http://www.foronx4.com.ar/index.php?topic=3410", 
+      "name": "Kits de emergencia"
+    }, 
+    {
+      "url": "http://www.foronx4.com.ar/index.php?topic=12", 
+      "name": "C\u00f3mo se mide el nivel de aceite"
+    }
+  ], 
   "name": "ClubNX4 - Argentina", 
   "url": "www.foronx4.com.ar", 
   "country": "ar", 
